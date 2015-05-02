@@ -12,5 +12,23 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.less('app.less');
+	mix
+	.styles(['touch.css'], 'public/css/touch.css')
+	.styles(['ie9.css'], 'public/css/ie9.css')
+	.scripts(['vendor/classList.js'], 'public/js/classList.js')
+	.scripts(['vendor/waypoints.js'], 'public/js/waypoints.js')
+	.styles([
+		'vendor/z-nav.css',
+		'style.css'
+	], 'public/css/all.css')
+	.scripts([
+		'vendor/z-nav.js',
+		'vendor/modernizr.js',
+		'vendor/scrollTo.js',
+		'vendor/raphael.js',
+		'vendor/livicons.js',
+		'vendor/inview.js',
+		'script.js'
+	], 'public/js/all.js')
+	.version(['css/touch.css', 'css/ie9.css', 'css/all.css', 'js/waypoints.js', 'js/all.js']);
 });
