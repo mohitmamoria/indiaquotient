@@ -8,6 +8,8 @@
 	<meta name="description" content="From India. For the World.">
 	<meta name="keywords" content="india, investment, venture capital, startup">
 	<meta name="author" content="Mohit Mamoria">
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
 
 	<!-- Mobile Specific Metas-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +24,6 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- Stylesheets -->
-
-	<!-- Touch slider - Swiper -->
-	<!-- <link href="external/swiper/idangerous.swiper.css" rel="stylesheet" /> -->
 
 	<!-- Styles -->
 	<link href="{{ elixir('css/all.css') }}" rel="stylesheet" />
@@ -53,10 +52,10 @@
 							<!--  Logo  -->
 							<a class="logo" href="index.html">
 								<!-- Remove comments to choose image and add comment to h1 -->
-								<!--<img src="images/logo-full.png" alt="">-->
-								<h1 class="logo__text">Alle<span class="highlight">c</span><br>
+								<img src="images/logo.png" alt="India Quotient">
+								<!-- <h1 class="logo__text">India<span class="highlight">Quotient</span><br>
 									<span class="logo__slogan">EQ, IQ and IndiaQ</span>
-								</h1>
+								</h1> -->
 							</a>
 							<!-- End Logo -->
 
@@ -95,187 +94,178 @@
 					</div> <!-- end fixed top block -->
 
 					<div class="large-header hero-header">
-						<div id="video-container" class="video-header-container">
-
-						</div>
 
 						<h1 class="main-title">From India. For The World.</h1>
 						<h2 class="main-title-helper">EQ, IQ and IndiaQ.</h2>
 
-						
+						<div class="rocket-place">
+							
+							<div class="rocket-container rocket-top">
+								<svg version='1.1' x='0px' y='0px'  width='307px' height='283px' id='rocket' class="clicked">
+									
+									<g class='rocket-inner'>
+										<path class='fire' id='fire-middle' d='M148.891,179.906c3.928,0,7.111,3.176,7.111,7.094 c0,7.78-7.111,16-7.111,16s-7.111-8.349-7.111-16C141.78,183.082,144.963,179.906,148.891,179.906z'/>
+										
+										<path class='fire' id='fire-right' d='M154.063,181.092c3.577-1.624,7.788-0.048,9.408,3.52 c3.216,7.084,0.139,17.508,0.139,17.508s-9.927-4.662-13.09-11.63C148.9,186.923,150.487,182.715,154.063,181.092z'/>
+										
+										<path class='fire' id='fire-left' d='M143.392,182.519c3.25,2.207,4.098,6.623,1.896,9.864 c-4.372,6.436-14.873,9.238-14.873,9.238s-1.191-10.902,3.108-17.23C135.725,181.149,140.143,180.312,143.392,182.519z'/>
+										
+										<path class='fire' id='fire-small-left' d='M143.193 187.531c2.226 0.4 3.7 2.6 3.2 4.8 c-0.875 4.407-5.829 8.264-5.829 8.264s-3.09-5.53-2.229-9.865C138.807 188.5 141 187.1 143.2 187.531z'/>
+										
+										<path class='fire' id='fire-small-right' d='M152.089 188.599c2.043-0.985 4.496-0.132 5.5 1.9 c1.952 4 0.3 10.1 0.3 10.107s-5.795-2.56-7.713-6.541C149.186 192 150 189.6 152.1 188.599z'/>
+										
+										<path class='rocket-bottom' d='M157.069 171.31h-3.292c-1.562-0.048-3.178-0.076-4.846-0.076 s-3.284 0.028-4.846 0.076h-3.292c-7.277-7.938-12.371-26.182-12.371-47.434c0-28.54 9.182-51.676 20.508-51.676 c11.327 0 20.5 23.1 20.5 51.676C169.44 145.1 164.3 163.4 157.1 171.31z'/>
+										
+										<path class='wing-base' d='M166.678 127.161c0 0 17.7 3.3 12.9 48.099l-18.06-14.05 L166.678 127.161z'/>
+										
+										<path class='wing-shadow' d='M158.225 140.336c10.481-5.584 22.7 22.2 21.4 34.9 l-18.06-14.05C161.542 161.2 156.1 144.3 158.2 140.336z'/>
+										
+										<path class='wing-base' d='M135.131 161.21l-18.06 14.1 c-4.805-44.793 12.924-48.099 12.924-48.099L135.131 161.21z'/>
+										
+										<path class='wing-shadow' d='M135.131 161.21l-18.06 14.1 c-1.367-12.746 10.896-40.509 21.377-34.924C140.614 144.3 135.1 161.2 135.1 161.21z'/>
+										
+										<path class='rocket-base' d='M162.728 167.358c-3.778-0.623-8.573-0.996-13.796-0.996 s-10.018 0.373-13.795 0.996c-5.033-10.186-8.257-25.808-8.257-43.338c0-30.688 9.873-55.566 22.052-55.566 s22.053 24.9 22.1 55.566C170.984 141.6 167.8 157.2 162.7 167.358z'/>
+										
+										<path class='rocket-shadow' d='M145.464 166.417c19.578-40.575 7.26-85.229 4.112-98.067 c11.88 0.9 21.4 25.4 21.4 55.525c0 17.529-3.225 33.152-8.257 43.337c0 0-3.786-0.472-8.069-0.697 S145.464 166.4 145.5 166.417z'/>
+										
+										<circle class='window' cx='148.9' cy='111.3' r='10.5'/>
+										
+										<circle class='window' cx='148.9' cy='132.4' r='5.2'/>
+									</g>
+
+								</svg>
+							</div>
+							<!-- rocket end -->
+
+							<div class="rocket-container rocket-small small-left">
+								<svg version='1.1' x='0px' y='0px'  width='307px' height='283px' id='rocket' class="clicked">
+									
+									<g class='rocket-inner'>
+										<path class='fire' id='fire-middle' d='M148.891,179.906c3.928,0,7.111,3.176,7.111,7.094 c0,7.78-7.111,16-7.111,16s-7.111-8.349-7.111-16C141.78,183.082,144.963,179.906,148.891,179.906z'/>
+										
+										<path class='fire' id='fire-right' d='M154.063,181.092c3.577-1.624,7.788-0.048,9.408,3.52 c3.216,7.084,0.139,17.508,0.139,17.508s-9.927-4.662-13.09-11.63C148.9,186.923,150.487,182.715,154.063,181.092z'/>
+										
+										<path class='fire' id='fire-left' d='M143.392,182.519c3.25,2.207,4.098,6.623,1.896,9.864 c-4.372,6.436-14.873,9.238-14.873,9.238s-1.191-10.902,3.108-17.23C135.725,181.149,140.143,180.312,143.392,182.519z'/>
+										
+										<path class='fire' id='fire-small-left' d='M143.193 187.531c2.226 0.4 3.7 2.6 3.2 4.8 c-0.875 4.407-5.829 8.264-5.829 8.264s-3.09-5.53-2.229-9.865C138.807 188.5 141 187.1 143.2 187.531z'/>
+										
+										<path class='fire' id='fire-small-right' d='M152.089 188.599c2.043-0.985 4.496-0.132 5.5 1.9 c1.952 4 0.3 10.1 0.3 10.107s-5.795-2.56-7.713-6.541C149.186 192 150 189.6 152.1 188.599z'/>
+										
+										<path class='rocket-bottom' d='M157.069 171.31h-3.292c-1.562-0.048-3.178-0.076-4.846-0.076 s-3.284 0.028-4.846 0.076h-3.292c-7.277-7.938-12.371-26.182-12.371-47.434c0-28.54 9.182-51.676 20.508-51.676 c11.327 0 20.5 23.1 20.5 51.676C169.44 145.1 164.3 163.4 157.1 171.31z'/>
+										
+										<path class='wing-base' d='M166.678 127.161c0 0 17.7 3.3 12.9 48.099l-18.06-14.05 L166.678 127.161z'/>
+										
+										<path class='wing-shadow' d='M158.225 140.336c10.481-5.584 22.7 22.2 21.4 34.9 l-18.06-14.05C161.542 161.2 156.1 144.3 158.2 140.336z'/>
+										
+										<path class='wing-base' d='M135.131 161.21l-18.06 14.1 c-4.805-44.793 12.924-48.099 12.924-48.099L135.131 161.21z'/>
+										
+										<path class='wing-shadow' d='M135.131 161.21l-18.06 14.1 c-1.367-12.746 10.896-40.509 21.377-34.924C140.614 144.3 135.1 161.2 135.1 161.21z'/>
+										
+										<path class='rocket-base' d='M162.728 167.358c-3.778-0.623-8.573-0.996-13.796-0.996 s-10.018 0.373-13.795 0.996c-5.033-10.186-8.257-25.808-8.257-43.338c0-30.688 9.873-55.566 22.052-55.566 s22.053 24.9 22.1 55.566C170.984 141.6 167.8 157.2 162.7 167.358z'/>
+										
+										<path class='rocket-shadow' d='M145.464 166.417c19.578-40.575 7.26-85.229 4.112-98.067 c11.88 0.9 21.4 25.4 21.4 55.525c0 17.529-3.225 33.152-8.257 43.337c0 0-3.786-0.472-8.069-0.697 S145.464 166.4 145.5 166.417z'/>
+										
+										<circle class='window' cx='148.9' cy='111.3' r='10.5'/>
+										
+										<circle class='window' cx='148.9' cy='132.4' r='5.2'/>
+									</g>
+
+								</svg>
+							</div>
+							<!-- rocket end -->
+
+							<div class="rocket-container rocket-small small-right">
+								<svg version='1.1' x='0px' y='0px'  width='307px' height='283px' id='rocket' class="clicked">
+									
+									<g class='rocket-inner'>
+										<path class='fire' id='fire-middle' d='M148.891,179.906c3.928,0,7.111,3.176,7.111,7.094 c0,7.78-7.111,16-7.111,16s-7.111-8.349-7.111-16C141.78,183.082,144.963,179.906,148.891,179.906z'/>
+										
+										<path class='fire' id='fire-right' d='M154.063,181.092c3.577-1.624,7.788-0.048,9.408,3.52 c3.216,7.084,0.139,17.508,0.139,17.508s-9.927-4.662-13.09-11.63C148.9,186.923,150.487,182.715,154.063,181.092z'/>
+										
+										<path class='fire' id='fire-left' d='M143.392,182.519c3.25,2.207,4.098,6.623,1.896,9.864 c-4.372,6.436-14.873,9.238-14.873,9.238s-1.191-10.902,3.108-17.23C135.725,181.149,140.143,180.312,143.392,182.519z'/>
+										
+										<path class='fire' id='fire-small-left' d='M143.193 187.531c2.226 0.4 3.7 2.6 3.2 4.8 c-0.875 4.407-5.829 8.264-5.829 8.264s-3.09-5.53-2.229-9.865C138.807 188.5 141 187.1 143.2 187.531z'/>
+										
+										<path class='fire' id='fire-small-right' d='M152.089 188.599c2.043-0.985 4.496-0.132 5.5 1.9 c1.952 4 0.3 10.1 0.3 10.107s-5.795-2.56-7.713-6.541C149.186 192 150 189.6 152.1 188.599z'/>
+										
+										<path class='rocket-bottom' d='M157.069 171.31h-3.292c-1.562-0.048-3.178-0.076-4.846-0.076 s-3.284 0.028-4.846 0.076h-3.292c-7.277-7.938-12.371-26.182-12.371-47.434c0-28.54 9.182-51.676 20.508-51.676 c11.327 0 20.5 23.1 20.5 51.676C169.44 145.1 164.3 163.4 157.1 171.31z'/>
+										
+										<path class='wing-base' d='M166.678 127.161c0 0 17.7 3.3 12.9 48.099l-18.06-14.05 L166.678 127.161z'/>
+										
+										<path class='wing-shadow' d='M158.225 140.336c10.481-5.584 22.7 22.2 21.4 34.9 l-18.06-14.05C161.542 161.2 156.1 144.3 158.2 140.336z'/>
+										
+										<path class='wing-base' d='M135.131 161.21l-18.06 14.1 c-4.805-44.793 12.924-48.099 12.924-48.099L135.131 161.21z'/>
+										
+										<path class='wing-shadow' d='M135.131 161.21l-18.06 14.1 c-1.367-12.746 10.896-40.509 21.377-34.924C140.614 144.3 135.1 161.2 135.1 161.21z'/>
+										
+										<path class='rocket-base' d='M162.728 167.358c-3.778-0.623-8.573-0.996-13.796-0.996 s-10.018 0.373-13.795 0.996c-5.033-10.186-8.257-25.808-8.257-43.338c0-30.688 9.873-55.566 22.052-55.566 s22.053 24.9 22.1 55.566C170.984 141.6 167.8 157.2 162.7 167.358z'/>
+										
+										<path class='rocket-shadow' d='M145.464 166.417c19.578-40.575 7.26-85.229 4.112-98.067 c11.88 0.9 21.4 25.4 21.4 55.525c0 17.529-3.225 33.152-8.257 43.337c0 0-3.786-0.472-8.069-0.697 S145.464 166.4 145.5 166.417z'/>
+										
+										<circle class='window' cx='148.9' cy='111.3' r='10.5'/>
+										
+										<circle class='window' cx='148.9' cy='132.4' r='5.2'/>
+									</g>
+
+								</svg>
+							</div>
+							<!-- rocket end -->
+
+						</div>
+						<!-- rocket place end -->
+
 					</div>
 				</div>
 
 			</header><!-- /header -->
 
 			<section class="container">
-				<h3 class="not-visible">Main conrainer</h3>
 
 				<div class="text-plus bottom-space--m">
-					<h3 class="text-plus__heading">Allec is Made with Love to Serve You</h3>
-					<p class="text-plus__info">A Lot of Features You May Love</p>
+					<h3 class="text-plus__heading">You're out there, somewhere, hustling...</h3>
+					<p class="text-plus__info">...we'll find you and fund you!</p>
 				</div>
 
 				<div class="row">
-					<div class="col-sm-4 hidden-xs">
+					<div class="col-sm-4">
 						<div class="feature">
-							<div class="feature__image feature__image--page animated fadeInUpStart start-1">
-								<img src="images/feature/1.png" alt="">
+							<div class="feature__image">
+								<img src="images/icon-coin.png" alt="What we do?" class="img-thumbnail">
 							</div>
-							<h3 class="feature__heading">Allec showcase</h3>
-							<p class="feature__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est. Nunc eu sodales turpis, varius viverra mauris.</p>
+							<h3 class="feature__heading">What We Do?</h3>
+							<p class="feature__info">We have been in business for a few years now. Basically funding companies that not too many seem to like. We don't care if it looks ugly, as long as it promises to grow like weed.</p>
+							<a class="btn btn-danger btn--decorated btn-sm" href="/what">More <i class="fa fa-angle-double-right"></i></a>
 						</div>
 					</div><!-- end col -->
 
-					<div class="col-sm-4 hidden-xs">
+					<div class="col-sm-4">
 						<div class="feature">
-							<div class="feature__image feature__image--responsive animated fadeInUpStart start-2">
-								<!-- <img src="images/feature/2.png" alt=""> -->
+							<div class="feature__image">
+								<img src="images/icon-joker.png" alt="Who we are?" class="img-thumbnail">
 							</div>
-							<h3 class="feature__heading">Compatible with any device</h3>
-							<p class="feature__info">Aenean porta, elit vitae tristique consequat, nisi tellus tincidunt erat, sit amet interdum elit quam at velit. Mauris venenatis metus sed purus tincidunt placerat. </p>
+							<h3 class="feature__heading">Who We Are?</h3>
+							<p class="feature__info">We know a bit about VC funds - raised money, managed and even invested in them. We are a bunch of people who travel, meet, talk to and invest in <strong>ginger startups</strong>, at early stage.</p>
+							<a class="btn btn-danger btn--decorated btn-sm" href="/we">More <i class="fa fa-angle-double-right"></i></a>
 						</div>
 					</div><!-- end col -->
 
 
-					<div class="col-sm-4 hidden-xs">
+					<div class="col-sm-4">
 						<div class="feature">
-							<div class="feature__image feature__image--clock animated fadeInUpStart start-3">
-								<!-- <img src="images/feature/3.png" alt=""> -->
+							<div class="feature__image">
+								<img src="images/icon-bulb.png" alt="Who are you?" class="img-thumbnail">
 							</div>
-							<h3 class="feature__heading">Quick implementation</h3>
-							<p class="feature__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est. Nunc eu sodales turpis, varius viverra mauris.</p>
+							<h3 class="feature__heading">Who Are You?</h3>
+							<p class="feature__info">Chances are high that you're someone who cannot take mediocrity any more. You loved your job (great coffee, free internet) but broke out of that routine. You're hungry and hustling.</p>
+							<a class="btn btn-danger btn--decorated btn-sm" href="/you">More <i class="fa fa-angle-double-right"></i></a>
 						</div>
 					</div><!-- end col -->
 				</div><!-- end row -->
-
-				<div class="swiper-container fearure-slider">
-					<div class="swiper-wrapper">
-						<!--Slide-->
-						<div class="swiper-slide">
-							<div class="feature">
-								<div class="feature__image feature__image--page">
-									<img src="images/feature/1.png" alt="">
-								</div>
-								<h3 class="feature__heading">Allec showcase</h3>
-								<p class="feature__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est. Nunc eu sodales turpis, varius viverra mauris.</p>
-							</div>
-						</div>
-
-						<!--Slide-->
-						<div class="swiper-slide">
-							<div class="feature">
-								<div class="feature__image feature__image--responsive">
-									<img src="images/feature/2.png" alt="">
-								</div>
-								<h3 class="feature__heading">Compatible with any device</h3>
-								<p class="feature__info">Aenean porta, elit vitae tristique consequat, nisi tellus tincidunt erat, sit amet interdum elit quam at velit. Mauris venenatis metus sed purus tincidunt placerat. </p>
-							</div>
-						</div>
-
-						<!--Slide-->
-						<div class="swiper-slide">
-							<div class="feature">
-								<div class="feature__image feature__image--clock">
-									<img src="images/feature/3.png" alt="">
-								</div>
-								<h3 class="feature__heading">Quick implementation</h3>
-								<p class="feature__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est. Nunc eu sodales turpis, varius viverra mauris.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="product-slider-pagination feature-pagination"></div>
-				</div>
 			</section><!-- end container -->
 
-			<div class="number-container bottom-space--small">
-				<div class="container">
-					<div class="row">
-						<h2 class="block-title block-title--simple" id="number-start">Allec in Numbers</h2>
-
-
-						<!-- Brand shape stat view -->
-						<div class="col-xs-6 col-md-3 one-column">
-							<div class="stat stat--shape">
-								<p class="stat__dimension">download</p>
-								<span class="stat__number" data-result="140k" data-value="140">0</span>
-							</div>
-						</div><!-- end col -->
-
-						<div class="col-xs-6 col-md-3 one-column">
-							<div class="stat stat--shape stat--shape-end">
-								<p class="stat__dimension">spent hours</p>
-								<span class="stat__number" data-result="6718" data-value="471">0</span>
-							</div>
-						</div><!-- end col -->
-
-						<div class="col-xs-6 col-md-3 one-column">
-							<div class="stat stat--shape">
-								<p class="stat__dimension">countries</p>
-								<span class="stat__number" data-result="106" data-value="106">0</span>
-							</div>
-						</div><!-- end col -->
-
-						<div class="col-xs-6 col-md-3 one-column">
-							<div class="stat stat--shape last">
-								<p class="stat__dimension">loyal clients</p>
-								<span class="stat__number" data-result="239" data-value="23">0</span>
-							</div>
-						</div><!-- end col -->
-					</div><!-- end row -->
-				</div><!-- end container -->
-			</div>
 
 			<div class="container">
-				<div class="devider-brand"></div>
-			</div>
-
-			<div class="container">
-				<h2 class="block-title block-title--simple block-title--bottom-s block-title--top-large">Check Allec in Action</h2>
-
-				<div class="row animated-row">
-					<div class="col-sm-12 col-md-6 col-md-push-3">
-						<div class="image-container image-container--empty animated fadeInUpStart start-2">
-							<div class="video-container video-container--large">
-								<iframe src="http://player.vimeo.com/video/18776121?title=0&amp;byline=0&amp;portrait=0" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							</div>
-						</div>
-					</div><!-- end col -->
-
-					<div class="col-sm-6 col-md-3 col-md-pull-6">
-						<ul class="list list--bordered list--top-line animated fadeInUpStart start-1">
-							<li>Etiam augue sem, pellentesque </li>
-							<li>Duis nec neque posuere, gravida</li>
-							<li>Cras felis nunc, tempus ut</li>
-							<li>Ut tincidunt varius pellentesque. Aenean laoreet nibh et nulla </li>
-							<li>Donec imperdiet posuere dolor, at fringilla augue</li>
-						</ul>
-					</div><!-- end col -->
-
-
-					<div class="col-sm-6 col-md-3">
-						<ul class="list list--bordered list--top-line animated fadeInUpStart start-3">
-							<li>Etiam augue sem, pellentesque </li>
-							<li>Duis nec neque posuere, gravida</li>
-							<li>Cras felis nunc, tempus ut</li>
-							<li>Ut tincidunt varius pellentesque. Aenean laoreet nibh et nulla </li>
-							<li>Donec imperdiet posuere dolor, at fringilla augue</li>
-						</ul>
-					</div><!-- end col -->
-				</div><!-- end row -->
-
-				<div class="devider-brand"></div>
-
-				<div class="col-sm-10 col-sm-offset-1">
-					<div class="short-text short-text--uni animated fadeInStart">
-						<h4>Nullam lacinia nibh et nisi luctus rhoncus. Cras vitae purus volutpat, rhoncus mauris quis, elementum neque. </h4>
-
-						<p>In cursus magna eget consequat placerat. Nulla facilisi. Ut pretium quis lacus quis mollis. Aenean justo mi, adipiscing a ligula id, lobortis porttitor arcu. Cras tincidunt tempus est a scelerisque. Maecenas adipiscing nulla sapien, non laoreet orci accumsan tempus. Vestibulum cursus nisi ut purus lobortis, non aliquet mauris pulvinar.  </p>
-
-						<a class="link link--top" href="about.html">Learn more</a>
-					</div>
-				</div>
+				<div class="devider-brand bottom-space--m"></div>
 			</div>
 
 			<!-- Colored devider -->
@@ -284,70 +274,32 @@
 			<!-- Footer section -->
 			<footer class="footer">
 				<div class="container">
-					<!-- Twitter carousel -->
-					<div class="swiper-container">
-						<div class="swiper-wrapper" id="twitter-feed"></div>
-						<!-- Slider pagination -->
-						<div class="swiper-pagination"></div>
-					</div>
-
 					<div class="row">
-
-						<!-- Latest post -->
-						<div class="col-sm-4">
-							<h3 class="heading-info">Latest from blog:</h3>
-
-							<div class="row">
-								<div class="col-xs-6 col-sm-12 one-column">
-									<article class="post post--latest">
-										<h3 class="not-visible">Latest post</h3>
-										<a class="post__images" href="single-post.html">
-											<img src="images/blog/latest/1.jpg" alt="">
-										</a>
-										<a class="post__text" href="single-post.html">Mauris orci purus, ultrices dapibus justo non, eleifend consequat lorem. </a>
-										<time datetime="2015-07-17" class="post__date">July 17, 2015</time>
-									</article>
-								</div>
-
-								<div class="col-xs-6 col-sm-12 one-column">
-									<article class="post post--latest">
-										<h3 class="not-visible">Latest post</h3>
-										<a class="post__images" href="single-post.html">
-											<img src="images/blog/latest/2.jpg" alt="">
-										</a>
-										<a class="post__text" href="single-post.html">Pellentesque et magna malesuada, scelerisque elit ac, convallis lacus. </a>
-										<time datetime="2015-07-16" class="post__date">July 16, 2015</time>
-									</article>
-								</div>
-							</div>
+						<!-- Wanna pitch? -->
+						<div class="col-sm-4 pitch-info">
+							<h3 class="heading-info">Wanna Pitch?</h3>
+							<p>If you haven't found us through LinkedIn, Twitter, seminars or common friends, it's our fault. We ought to be out in the field more. In the meanwhile, <a href="/contact">fill out this form</a> in plain-text version of your pitch.</p>
 						</div>
-						<!-- end latest post -->
+						<!-- end pitch plans -->
 
 						<!-- Contact info about company -->
 						<div class="col-sm-4">
-							<h3 class="heading-info heading-info--mobile">Contact info:</h3>
+							<h3 class="heading-info heading-info--mobile">Get In Touch</h3>
 							<!-- Contact information about company -->
 							<address class="contact-info contact-info--list">
 								<div class="row">
-									<div class="col-xs-6 col-sm-12 one-column">
-										<a href="http://maps.google.com/?q=101 West Street, New York, NY 10014" class="contact-info__item" target="_blank">
-											<i class="fa fa-location-arrow"></i>
-											101 West Street, New York, NY 10014
-										</a>
-										<a class="contact-info__item" href="tel://1-888-555-5555">
-											<i class="fa fa-mobile"></i>
-											+1-888-555-5555
+									<div class="col-sm-12 one-column">
+										<a class="contact-info__item" href="mailto:anand@indiaquotient.in?subject=*put some creative subject here*">
+											<i class="fa fa-envelope"></i>
+											anand@indiaquotient.in
 										</a>
 									</div>
-
-									<div class="col-xs-6 col-sm-12 one-column">
-										<a class="contact-info__item" href="mailto:info@allec.com,sales@allec.com?subject=Email from website">
+								</div>
+								<div class="row">
+									<div class="col-sm-12 one-column">
+										<a class="contact-info__item" href="mailto:madhukar@indiaquotient.in?subject=*put some creative subject here*">
 											<i class="fa fa-envelope"></i>
-											info@allec.com / sales@allec.com
-										</a>
-										<a href="skype:allec-support?call" class="contact-info__item">
-											<i class="fa fa-skype"></i>
-											allec-support
+											madhukar@indiaquotient.in
 										</a>
 									</div>
 								</div>
@@ -358,34 +310,20 @@
 
 						<!-- Social links -->
 						<div class="col-sm-4">
-							<h3 class="heading-info heading-info--mobile">We’re social:</h3>
+							<h3 class="heading-info heading-info--mobile">Social?</h3>
 							<div class="social social--default">
 								<!-- List with social icons -->
 								<ul>
-									<li class="social__item"><a class="social__link" href="https://twitter.com/OliaGozha" target="_blank"><i class="social__icon fa fa-twitter"></i></a></li>
-									<li class="social__item"><a class="social__link" href="https://www.facebook.com/olia.gozha" target="_blank"><i class="social__icon fa fa-facebook"></i></a></li>
-									<li class="social__item"><a class="social__link" href="https://plus.google.com/u/0/+OliaGozha/posts" target="_blank"><i class="social__icon fa fa-google-plus"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-pinterest"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-tumblr"></i></a></li>
-									<li class="social__item"><a class="social__link" href="http://www.linkedin.com/pub/olia-gozha/49/b91/268" target="_blank"><i class="social__icon fa fa-linkedin"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-youtube"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-github-alt"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-flickr"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-vimeo-square"></i></a></li>
-									<li class="social__item"><a class="social__link" href="http://dribbble.com/OliaGozha" target="_blank"><i class="social__icon fa fa-dribbble"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-stumbleupon"></i></a></li>
-									<li class="social__item"><a class="social__link" href="http://instagram.com/olechka_dumka#" target="_blank"><i class="social__icon fa fa-instagram"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-soundcloud"></i></a></li>
-									<li class="social__item"><a class="social__link" href="http://www.behance.net/olia_gozha" target="_blank"><i class="social__icon fa fa-behance"></i></a></li>
-									<li class="social__item"><a class="social__link" href="#" target="_blank"><i class="social__icon fa fa-vine"></i></a></li>
+									<li class="social__item"><a class="social__link" href="https://twitter.com/IndiaQuotient" target="_blank"><i class="social__icon fa fa-twitter"></i></a></li>
+									<li class="social__item"><a class="social__link" href="https://www.facebook.com/IndiaQuotient" target="_blank"><i class="social__icon fa fa-facebook"></i></a></li>
 								</ul>
 							</div>
 						</div>
 						<!-- end social links -->
 					</div><!-- end row -->
-
+					
 					<div class="copy">
-						&copy; Allec, 2015. All rights reserved. Done by <a href="http://gozha.net/" target="_blank">Olia Gozha</a>
+						&copy; IndiaQuotient, 2015. All rights reserved. Made by <a href="http://mohitmamoria.com/" target="_blank">Someone We Rejected - TWICE!</a>
 					</div>
 
 				</div><!-- end container -->

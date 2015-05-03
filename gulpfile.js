@@ -30,5 +30,6 @@ elixir(function(mix) {
 		'vendor/inview.js',
 		'script.js'
 	], 'public/js/all.js')
+	.copy('resources/images', 'public/images')
 	.version(['css/touch.css', 'css/ie9.css', 'css/all.css', 'js/waypoints.js', 'js/all.js']);
 });

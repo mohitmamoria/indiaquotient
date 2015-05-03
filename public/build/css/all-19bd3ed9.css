@@ -537,6 +537,10 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1250,7 +1254,7 @@ ol {
 .devider-color {
   width: 100%;
   height: 3px;
-  background-image: url("../images/components/stripe.png");
+  background-image: url("../../images/stripe.png");
   background-repeat: repeat-x;
 }
 .devider-color-special {
@@ -3599,7 +3603,7 @@ ol {
 }
 .logo img {
   width: 194px;
-  height: 46px;
+  /*height: 46px;*/
   margin-top: 28px;
 }
 .logo .logo__text {
@@ -3680,7 +3684,7 @@ ol {
   height: 48px;
   margin-top: 0px;
   background-color: #85d6de;
-  background-image: url(../images/icons/menu-icon.svg);
+  background-image: url(../../images/menu-icon.svg);
   background-size: 48px;
   background-position: -2px -1px;
   background-repeat: no-repeat;
@@ -3739,7 +3743,7 @@ ol {
     padding: 0;
   }
   .z-nav .z-nav__link {
-    padding: 42px 20px;
+    padding: 51px 20px;
     font: 14px 'Open Sans', sans-serif;
     color: #ffffff;
     -webkit-transition: color 300ms ease, background 300ms ease;
@@ -4846,7 +4850,7 @@ ol {
 @media (max-width: 768px) {
   .header-placement .header-fixed {
     position: relative;
-    margin-bottom: -104px;
+    margin-bottom: -121px;
   }
 }
 @media (max-width: 480px) {
@@ -4863,7 +4867,7 @@ ol {
   background-color: #34495e;
   text-align: center;
   overflow: hidden;
-  background-image: url(https://download.unsplash.com/photo-1421977870504-378093748ae6);
+  background-image: url(../../images/crowd.jpeg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
@@ -5412,6 +5416,10 @@ ol {
 }
 .copy a:hover {
   color: #85d6de;
+}
+.pitch-info {
+  text-decoration: none;
+  color: #758594;
 }
 .footer--expand {
   text-align: center;
@@ -8973,7 +8981,7 @@ table th[class*="col-"] {
   width: 19px;
   height: 148px;
   background-color: rgba(255, 161, 93, 0);
-  background-image: url(../images/components/rocket-path.png);
+  background-image: url(../../images/rocket-path.png);
   background-size: 19px 148px;
   background-repeat: no-repeat;
 }
@@ -8982,7 +8990,7 @@ table th[class*="col-"] {
   left: 143px;
   width: 12px;
   height: 145px;
-  background-image: url(../images/components/rocket-path-sm.png);
+  background-image: url(../../images/rocket-path-sm.png);
   background-size: 12px 145px;
   background-repeat: no-repeat;
 }
@@ -13510,8 +13518,8 @@ table th[class*="col-"] {
   margin-bottom: 6px;
   font: 30px 'Open Sans', sans-serif;
   font-weight: bold;
-  text-transform: uppercase;
-  color: #a8aeb3;
+  /*text-transform: uppercase;*/
+  /*color: #a8aeb3;*/
 }
 .text-plus .text-plus__info {
   margin: 0;
