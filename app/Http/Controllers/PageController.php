@@ -52,4 +52,14 @@ class PageController extends Controller {
 		return view('you');
 	}
 
+	/**
+	 * Contact Page
+	 *
+	 * @return Response
+	 */
+	public function contact()
+	{
+		return view('contact');
+	}
+
 }

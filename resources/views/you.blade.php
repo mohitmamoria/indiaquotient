@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-India Quotient : Who Are We?
+India Quotient : Who Are You?
 @endsection
 
 @section('content')
