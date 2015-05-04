@@ -8,257 +8,45 @@ India Quotient : What We Do?
 
 @include('partials.header-sub')
 
-<!-- Section show current page and breadcrumb -->
-<section class="page-indecator">
-	<div class="container">
-		<h2 class="heading">What We Do?</h2>
-		
-		<!-- Breadcrumb pattern -->
-		<ol class="breadcrumb">
-		  <li><a href="/">Home</a></li>
-		  <li class="active">What We Do?</li>
-		</ol>
-
-		<!-- Default one color devider -->
-		<div class="devider"></div>
-	</div>
-</section>
-<!-- end section show current page and breadcrumb -->
-
 <section class="container">
 	<div class="row">
-		<div class="col-sm-4 col-md-6">
-			<blockquote class="blockquote blockquote--empty blockquote--strong">
-				<span class="blockquote__line"> The chief <br><strong>enemy of creativity</strong></span><span class="blockquote__line"> is <br><strong>good sense.</strong></span>
-				<div class="clearfix"></div>
-				<div class="blockquote__devider">
-					<small class="blockquote__author">Pablo Picaso</small>
-				</div>
-			</blockquote>
-		</div><!-- end col -->
-	</div>
+		<div class="about">
+			<div class="col-sm-6">
+				<h2 class="heading-cascade heading-cascade--danger"><span class="heading-cascade__step">WHAT</span> WE DO?</h2>
+				<p class="p-space text-brand">We have been in business for a few years now. Basically funding companies that not too many seem to like. We don't care if it looks ugly, as long as it promises to grow like weed.</p>
+				<p class="p-space">We will invest in very early stage startups.</p>
+				<ul class="list list--arrow">
+					<li>If your product is not ready, you are welcome to sit with us till you get it ready. We will make sure the coffee is good.</li>
+					<li>If your product is ready but not really working, we will give you money to iterate.</li>
+					<li>If your product market fit is not proven, we will give you enough to reach there.</li>
+					<li>If your business is doing well, but still not attracting VCs, all you need is some money and some patience.</li>
+				</ul>
+				<p class="p-space">In short we are happy to rip you off. Anything upto 3 crores for 5 to 25% equity.</p>
 
-	<div class="text-plus bottom-space--m">
-		<h3 class="text-plus__heading">You're out there, somewhere, hustling...</h3>
-		<p class="text-plus__info">...we'll find you and fund you!</p>
-	</div>
+				<p class="p-space">We are happy to invest and reap rewards and expect you to run your own business. Our investment will largely be in terms of money. A few people who have tried to involve us in <strong>brain storming</strong> and other BS have quickly reverted to monthly updates. We do have an advisory board since it is fashionable and you could pester them for help. They are the types who 'love' helping startups.</p>
 
-	<div class="row">
-		<div class="col-sm-4">
-			<div class="feature">
-				<div class="feature__image">
-					<img src="images/icon-coin.png" alt="What We Do?" class="img-thumbnail">
-				</div>
-				<h3 class="feature__heading">What We Do?</h3>
-				<p class="feature__info">We have been in business for a few years now. Basically funding companies that not too many seem to like. We don't care if it looks ugly, as long as it promises to grow like weed.</p>
-				<a class="btn btn-danger btn--decorated btn-sm" href="/what">More <i class="fa fa-angle-double-right"></i></a>
-			</div>
-		</div><!-- end col -->
+				<p class="p-space">There are a few structured programs we conduct for our portfolio; and you can catch up with your Facebook account during those days. We do many of these programs because its fun, and we need fun because, well, we need to be patient. The other teams in the portfolio make great company, and are a lot of help. But you don't really need to give an arm and a leg to build relationships with fellow entrepreneurs.</p>
+				</p>
+			</div><!-- end col -->
 
-		<div class="col-sm-4">
-			<div class="feature">
-				<div class="feature__image">
-					<img src="images/icon-joker.png" alt="Who Are We?" class="img-thumbnail">
-				</div>
-				<h3 class="feature__heading">Who Are We?</h3>
-				<p class="feature__info">We know a bit about VC funds - raised money, managed and even invested in them. We are a bunch of people who travel, meet, talk to and invest in <strong>ginger startups</strong>, at early stage.</p>
-				<a class="btn btn-danger btn--decorated btn-sm" href="/we">More <i class="fa fa-angle-double-right"></i></a>
-			</div>
-		</div><!-- end col -->
+			<div class="col-sm-6">
+				<blockquote class="blockquote blockquote--empty blockquote--strong">
+					<span class="blockquote__line"> The chief <br><strong>enemy of creativity</strong></span><span class="blockquote__line"> is <br><strong>common sense.</strong></span>
+					<div class="clearfix"></div>
+					<div class="blockquote__devider">
+						<small class="blockquote__author">Pablo Picaso</small>
+					</div>
+				</blockquote>
 
-
-		<div class="col-sm-4">
-			<div class="feature">
-				<div class="feature__image">
-					<img src="images/icon-bulb.png" alt="Who Are You?" class="img-thumbnail">
-				</div>
-				<h3 class="feature__heading">Who Are You?</h3>
-				<p class="feature__info">Chances are high that you're someone who cannot take mediocrity any more. You loved your job (great coffee, free internet) but broke out of that routine. You're hungry and hustling.</p>
-				<a class="btn btn-danger btn--decorated btn-sm" href="/you">More <i class="fa fa-angle-double-right"></i></a>
-			</div>
-		</div><!-- end col -->
+				<h2 class="heading-cascade heading-cascade--danger"><span class="heading-cascade__step">what sectors</span> we like?</h2>
+				<p class="p-space">The intersection of smartphone, big data, and design is changing our lives. We see people, consumers, around us doing all sorts of things on the smartphone. Buying, talking, getting updated, learning, entertaining themselves, playing. We have special love for markets that others think are small.</p>
+				<p class="p-space">Then there is the other class of tech companies that are building global products while being based out of India. It might seems clichéd but we're pretty much sector agnostic and one has to be when one is talking about India.</p>
+				<blockquote class="p-space">
+					Disruption can be brought about in any sector.
+					<small>Anand Lunia (Founder, IndiaQuotient)</small>
+				</blockquote>
+			</div><!-- end col -->
+		</div><!-- end about -->
 	</div><!-- end row -->
 </section><!-- end container -->
-
-
-<div class="container">
-	<div class="devider-brand bottom-space--m"></div>
-</div>
-
-<section class="container">
-	<h2 class="block-title block-title--top-larger" id="portfolio">Current Portfolio</h2>
-</section>
-
-<div class="full-carousel carousel-present-sm">
-	<div class="container carousel-sides--info">
-		<div class="swiper-container carousel-sides ">
-			<div class="swiper-wrapper" style="width: 2880px; height: 255px; transform: translate3d(-960px, 0px, 0px); -webkit-transform: translate3d(-960px, 0px, 0px); transition-duration: 0s; -webkit-transition-duration: 0s;">
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible swiper-slide-active" data-src="http://placehold.it/300x200" data-head="iimjobs" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="RedQuanta" style="width: 240px; height: 255px;">
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="Belita" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="Shephertz" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="Engrave" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="mapmytalent" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="dogspot.in" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="grabhouse" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="PrettySecrets" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="91mobiles" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="FabBag" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="frsh" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="ROPOSO" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="PurpleSquirrel" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="nearify" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-
-				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="teewe" style="width: 240px; height: 255px;"> 
-					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
-					</div>
-				</a>
-			</div><!--end swiper wrapper-->
-		</div><!--end swiper container-->
-	</div><!--end swiper container-->
-
-	<div class="leftside-arrow">
-		<i class="fa fa-angle-left"></i>
-		<div class="slide-preview">
-			<img class="img-arrow img-prev" src="http://placehold.it/300x200" alt="">
-			<span class="arrow-heading">Shephertz</span>
-		</div>
-	</div>
-	<div class="rightside-arrow">
-		<i class="fa fa-angle-right"></i>
-		<div class="slide-preview">
-			<img class="img-arrow img-next" src="http://placehold.it/300x200" alt="">
-			<span class="arrow-heading">iimjobs</span>
-		</div>
-	</div>
-	<!--end swiper controls-->
-</div>
-
-<section class="container">
-	<h3 class="not-visible">Helper</h3>
-
-	<div class="slider-information">
-		<div class="slider-information__item slider-information__item--first iimjobs">
-			<p class="slider-information__text">Really very nice design and supportive online quick response. Awesome work!!! </p>
-			<p class="slider-information__author">Catherine Welch</p>
-		</div>
-
-		<div class="slider-information__item redquanta">
-			<p class="slider-information__text"> Very well documented. Great Work! </p>
-			<p class="slider-information__author">Neal Caffrey</p>
-		</div>
-
-		<div class="slider-information__item appcorner">
-			<p class="slider-information__text">Unique design, great functionality, modern style. Nice!  </p>
-			<p class="slider-information__author">Sara Ellis</p>
-		</div>
-
-		<div class="slider-information__item бандлер">
-			<p class="slider-information__text"> Awesome template! Thank You for great job!!! </p>
-			<p class="slider-information__author">Elizabeth Burke</p>
-		</div>
-	</div>
-
-	<div class="devider-brand devider--top-large"></div>
-</section>
-@endsection
-
-@section('scripts')
-<script>
-	$(document).ready(function() {
-		sliderSidesAdvanced();
-	});
-</script>
 @endsection
