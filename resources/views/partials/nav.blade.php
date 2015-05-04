@@ -10,7 +10,7 @@
 	<div class="z-nav-inner">
 		<ul class="z-nav__list">
 			<li class="z-nav__item">
-				<a class="z-nav__link z-nav__link--active" href="/">Home</a>
+				<a class="z-nav__link" href="/">Home</a>
 			</li>
 
 			<li class="z-nav__item">

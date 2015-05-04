@@ -32,4 +32,14 @@ class PageController extends Controller {
 		return view('what');
 	}
 
+	/**
+	 * Who Are We?
+	 *
+	 * @return Response
+	 */
+	public function we()
+	{
+		return view('we');
+	}
+
 }

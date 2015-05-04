@@ -29,9 +29,11 @@ India Quotient : What We Do?
 				</p>
 			</div><!-- end col -->
 
+			<div class="col-sm-1"></div>
+
 			<div class="col-sm-6">
 				<blockquote class="blockquote blockquote--empty blockquote--strong">
-					<span class="blockquote__line"> The chief <br><strong>enemy of creativity</strong></span><span class="blockquote__line"> is <br><strong>common sense.</strong></span>
+					<span class="blockquote__line">The chief <br><strong>enemy of creativity</strong></span><span class="blockquote__line"> is <br><strong>common sense.</strong></span>
 					<div class="clearfix"></div>
 					<div class="blockquote__devider">
 						<small class="blockquote__author">Pablo Picaso</small>
