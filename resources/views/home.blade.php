@@ -5,6 +5,10 @@ India Quotient : Home
 @endsection
 
 @section('content')
+
+<!-- Index file main container -->
+@include('partials.header')
+
 <section class="container">
 
 	<div class="text-plus bottom-space--m">

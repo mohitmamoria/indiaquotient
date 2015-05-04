@@ -42,8 +42,6 @@
 	<body>
 
 		<div class="wrapper" id="top">
-			<!-- Index file main container -->
-			@include('partials.header')
 
 			@yield('content')
 
