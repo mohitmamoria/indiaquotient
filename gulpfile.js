@@ -19,6 +19,7 @@ elixir(function(mix) {
 	.scripts(['vendor/waypoints.js'], 'public/js/waypoints.js')
 	.styles([
 		'vendor/z-nav.css',
+		'vendor/swiper.css',
 		'style.css'
 	], 'public/css/all.css')
 	.scripts([
@@ -28,6 +29,7 @@ elixir(function(mix) {
 		'vendor/raphael.js',
 		'vendor/livicons.js',
 		'vendor/inview.js',
+		'vendor/swiper.js',
 		'script.js'
 	], 'public/js/all.js')
 	.copy('resources/images', 'public/images')
