@@ -54,7 +54,7 @@ return [
 	|
 	*/
 
-	'from' => ['address' => null, 'name' => null],
+	'from' => ['address' => 'mohit@horntell.com', 'name' => 'IndiaQuotient Website'],
 
 	/*
 	|--------------------------------------------------------------------------

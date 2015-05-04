@@ -3,8 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Validation\Factory as Validator;
 use Illuminate\Mail\Mailer as Mail;
+use Illuminate\Config\Repository as Config;
 use Illuminate\Support\MessageBag;
-use Message;
 
 class MessageController extends Controller {
 
@@ -23,7 +23,7 @@ class MessageController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store(Request $request, Validator $validator, Mail $mail)
+	public function store(Request $request, Validator $validator, Mail $mail, Config $config)
 	{
 		try
 		{
@@ -42,14 +42,14 @@ class MessageController extends Controller {
 				return back()->withErrors($v)->withInput();
 			}
 
-			// Message::create($input);
+			\App\Message::create($input);
 
-			$mail->send('emails.new-message', compact('input'), function($message) use($input)
+			$mail->send('emails.new-message', compact('input'), function($message) use($input, $config)
 			{
 				$message
-					->to('mohit.mamoria@gmail.com', 'Team IQ')
-					->from($input['email'], $input['name'])
-					->subject('[Message from Website]: ' . $input['subject']);
+					->to($config->get('indiaq.to.address'), $config->get('indiaq.to.name'))
+					->replyTo($input['email'], $input['name'])
+					->subject($config->get('indiaq.subject') . ' ' . $input['subject']);
 			});
 
 			return $this->respondSuccess('You\'ve successfully sent us the message. We\'ll get back to you soon. :)');
