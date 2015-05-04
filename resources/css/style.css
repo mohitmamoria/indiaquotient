@@ -10390,16 +10390,16 @@ table th[class*="col-"] {
   border-color: transparent;
 }
 .testimonial .testimonial__images {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  /*height: 80px;*/
   float: left;
   margin-right: 20px;
 }
 .testimonial .testimonial__images img {
   max-width: 100%;
-  -webkit-border-radius: 50%;
+  /*-webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 .testimonial .testimonial__author {
   padding-top: 20px;

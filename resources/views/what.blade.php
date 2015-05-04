@@ -12,7 +12,7 @@ India Quotient : What We Do?
 	<div class="row">
 		<div class="about">
 			<div class="col-sm-6">
-				<h2 class="heading-cascade heading-cascade--danger"><span class="heading-cascade__step">WHAT</span> WE DO?</h2>
+				<h2 class="heading-cascade heading-cascade--danger"><span class="heading-cascade__step">what</span> we do?</h2>
 				<p class="p-space text-brand">We have been in business for a few years now. Basically funding companies that not too many seem to like. We don't care if it looks ugly, as long as it promises to grow like weed.</p>
 				<p class="p-space">We will invest in very early stage startups.</p>
 				<ul class="list list--arrow">
