@@ -16,3 +16,4 @@ Route::get('/what', 'PageController@what');
 Route::get('/we', 'PageController@we');
 Route::get('/you', 'PageController@you');
 Route::get('/contact', 'PageController@contact');
+Route::post('/contact', 'ContactController@store');
