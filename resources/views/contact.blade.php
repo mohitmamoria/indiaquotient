@@ -41,11 +41,11 @@ India Quotient : Let's Talk
 			<form class="contact contact--clean contact--full" id="contact-form" name="contact-form" method="post" action="/contact">
 				<h3 class="heading-helper heading-helper--large heading-helper--left">Drop us a line</h3>
 
-				<input class="contact__field" name="contact-name" type="text" placeholder="full name">
-				<input class="contact__field" name="contact-email" type="email" placeholder="email">
-				<input class="contact__field" name="contact-phone" type="tel" placeholder="phone">
-				<input class="contact__field" name="contact-subject" type="email" placeholder="subject">
-				<textarea class="contact__field contact__area" name="contact-message" placeholder="message"></textarea>
+				<input class="contact__field" name="contact-name" type="text" placeholder="full name" required>
+				<input class="contact__field" name="contact-email" type="email" placeholder="email" required>
+				<input class="contact__field" name="contact-phone" type="tel" placeholder="phone" required>
+				<input class="contact__field" name="contact-subject" type="text" placeholder="subject" required>
+				<textarea class="contact__field contact__area" name="contact-message" placeholder="message" required></textarea>
 				<button class="btn btn--decorated btn-info btn-submit" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 			</form>
 		</div>
