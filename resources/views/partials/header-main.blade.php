@@ -5,7 +5,7 @@
 		<div class="header-fixed header-down">
 			<div class="container waypoint" data-animate-down="header-up" data-animate-up="header-down">
 				<!--  Logo  -->
-				<a class="logo" href="index.html">
+				<a class="logo" href="/">
 					<!-- Remove comments to choose image and add comment to h1 -->
 					<img src="images/logo.png" alt="India Quotient">
 					<!-- <h1 class="logo__text">India<span class="highlight">Quotient</span><br>
