@@ -7,7 +7,7 @@ India Quotient : Home
 @section('content')
 
 <!-- Index file main container -->
-@include('partials.header')
+@include('partials.header-main')
 
 <section class="container">
 
