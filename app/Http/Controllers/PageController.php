@@ -22,4 +22,14 @@ class PageController extends Controller {
 		return view('home');
 	}
 
+	/**
+	 * What We Do?
+	 *
+	 * @return Response
+	 */
+	public function what()
+	{
+		return view('what');
+	}
+
 }

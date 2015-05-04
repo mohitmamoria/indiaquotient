@@ -3319,7 +3319,8 @@ ol {
 .logo img {
   width: 194px;
   /*height: 46px;*/
-  margin-top: 28px;
+  /*margin-top: 28px;*/
+  margin-top: 7px;
 }
 .logo .logo__text {
   padding: 9px 0 9px 65px;
@@ -3458,7 +3459,7 @@ ol {
     padding: 0;
   }
   .z-nav .z-nav__link {
-    padding: 51px 20px;
+    padding: 42px 20px;
     font: 14px 'Open Sans', sans-serif;
     color: #ffffff;
     -webkit-transition: color 300ms ease, background 300ms ease;

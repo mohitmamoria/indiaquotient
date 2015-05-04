@@ -1,14 +1,42 @@
 @extends('master')
 
 @section('title')
-India Quotient : Home
+India Quotient : What We Do?
 @endsection
 
 @section('content')
 
-@include('partials.header-main')
+@include('partials.header-sub')
+
+<!-- Section show current page and breadcrumb -->
+<section class="page-indecator">
+	<div class="container">
+		<h2 class="heading">What We Do?</h2>
+		
+		<!-- Breadcrumb pattern -->
+		<ol class="breadcrumb">
+		  <li><a href="/">Home</a></li>
+		  <li class="active">What We Do?</li>
+		</ol>
+
+		<!-- Default one color devider -->
+		<div class="devider"></div>
+	</div>
+</section>
+<!-- end section show current page and breadcrumb -->
 
 <section class="container">
+	<div class="row">
+		<div class="col-sm-4 col-md-6">
+			<blockquote class="blockquote blockquote--empty blockquote--strong">
+				<span class="blockquote__line"> The chief <br><strong>enemy of creativity</strong></span><span class="blockquote__line"> is <br><strong>good sense.</strong></span>
+				<div class="clearfix"></div>
+				<div class="blockquote__devider">
+					<small class="blockquote__author">Pablo Picaso</small>
+				</div>
+			</blockquote>
+		</div><!-- end col -->
+	</div>
 
 	<div class="text-plus bottom-space--m">
 		<h3 class="text-plus__heading">You're out there, somewhere, hustling...</h3>

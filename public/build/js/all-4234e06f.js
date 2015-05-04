@@ -5262,10 +5262,10 @@ function sliderSidesAdvanced() {
 
 	             var slidesSlides = $('.carousel-sides .swiper-slide');
 	             var sliderInfo = $('.slider-information__item');
-               
-               slidesSlides.on('click', function(e) { e.preventDefault(); });
+
+	             slidesSlides.on('click', function(e) { e.preventDefault(); });
 	             
-               slidesSlides.mouseenter(function (e){
+	             slidesSlides.mouseenter(function (e){
 	             	slidesSlides.removeClass('carousel-slide-active');
 	             	$(this).addClass('carousel-slide-active');
 

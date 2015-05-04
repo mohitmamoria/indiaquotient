@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'PageController@index');
+Route::get('/what', 'PageController@what');
