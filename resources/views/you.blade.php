@@ -59,5 +59,13 @@ India Quotient : Who Are You?
 			</blockquote>
 		</div><!-- end col -->
 	</div><!-- end row -->
+
+	<div class="promo promo--border-full promo-present">
+		<div class="promo__text">
+			<h3 class="promo__heading">Think you are <strong><em>the founder</em></strong> we are looking for?</h3>
+			<p class="promo__info">We love hustlers, who, not only think out of the box, but are capable of finding some hidden secrets within the box itself (in the corners where no one cares to look at).</p>
+		</div>
+		<a class="btn btn-danger btn--decorated promo__btn" href="/contact"><i class="fa fa-comments"></i> Let's Talk!</a>
+	</div>
 </section><!-- end container -->
 @endsection
