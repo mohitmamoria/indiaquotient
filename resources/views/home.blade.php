@@ -259,8 +259,8 @@ India Quotient : Home
 			<p class="slider-information__author">Aditya, Sahiba</p>
 		</div>
 		<div class="slider-information__item nearify">
-			<p class="slider-information__author">Vivek, Mayank, Sourav</p>
 			<p class="slider-information__text">Never miss anything happening near you.</p>
+			<p class="slider-information__author">Vivek, Mayank, Sourav</p>
 		</div>
 		<div class="slider-information__item teewe">
 			<p class="slider-information__text">Mango men obsessed about making great electronic products.</p>
