@@ -9,5 +9,8 @@ return [
 	/**
 	 * Prefix for Subject
 	 */
-	'subject' => '[NEW MESSAGE]',
+	'subjects' => [
+		'notification' => '[NEW MESSAGE]',
+		'acknowledgement' => '[IndiaQuotient] We\'ve got your message.'
+	],
 ];

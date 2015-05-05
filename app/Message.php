@@ -16,6 +16,13 @@ class Message extends Model {
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['name', 'email', 'phone', 'subject', 'message', 'created_at', 'updated_at'];
+	protected $fillable = ['name', 'email', 'phone', 'subject', 'message', 'created_at', 'updated_at', 'acknowledged_at'];
+
+	protected $dates = ['acknowledged_at'];
+
+	public function scopeUnacknowledged($query)
+	{
+		return $query->whereNull('acknowledged_at');
+	}
 
 }

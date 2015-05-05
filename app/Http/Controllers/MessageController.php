@@ -42,15 +42,9 @@ class MessageController extends Controller {
 				return back()->withErrors($v)->withInput();
 			}
 
-			\App\Message::create($input);
+			$webMessage = \App\Message::create($input);
 
-			$mail->send('emails.new-message', compact('input'), function($message) use($input, $config)
-			{
-				$message
-					->to($config->get('indiaq.to.address'), $config->get('indiaq.to.name'))
-					->replyTo($input['email'], $input['name'])
-					->subject($config->get('indiaq.subject') . ' ' . $input['subject']);
-			});
+			$this->notifyAdmin($webMessage, $mail, $config);
 
 			return $this->respondSuccess('You\'ve successfully sent us the message. We\'ll get back to you soon. :)');
 		}
@@ -63,6 +57,17 @@ class MessageController extends Controller {
 	private function respondSuccess($message = 'OK')
 	{
 		return redirect('/contact')->with('success_message', $message);
+	}
+
+	private function notifyAdmin($webMessage, $mail, $config)
+	{
+		$mail->send('emails.new-message', compact('webMessage'), function($message) use($webMessage, $config)
+		{
+			$message
+				->to($config->get('indiaq.to.address'), $config->get('indiaq.to.name'))
+				->replyTo($webMessage->email, $webMessage->name)
+				->subject($config->get('indiaq.subjects.notification') . ' ' . $webMessage->subject);
+		});
 	}
 
 }

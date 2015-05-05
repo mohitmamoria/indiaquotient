@@ -9,9 +9,6 @@
 
 	<div class="z-nav-inner">
 		<ul class="z-nav__list">
-			<li class="z-nav__item">
-				<a class="z-nav__link" href="/">Home</a>
-			</li>
 
 			<li class="z-nav__item">
 				<a class="z-nav__link" href="/what">What We Do?</a>
@@ -23,6 +20,10 @@
 
 			<li class="z-nav__item">
 				<a class="z-nav__link" href="/you">Who Are You?</a>
+			</li>
+
+			<li class="z-nav__item">
+				<a class="z-nav__link" href="/contact">Contact</a>
 			</li>
 		</ul>
 	</div><!-- end list menu inner container -->

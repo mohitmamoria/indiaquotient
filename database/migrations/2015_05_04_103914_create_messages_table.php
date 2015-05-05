@@ -21,6 +21,7 @@ class CreateMessagesTable extends Migration {
 			$table->string('subject');
 			$table->text('message');
 			$table->timestamps();
+			$table->timestamp('acknowledged_at')->nullable();
 		});
 	}
 

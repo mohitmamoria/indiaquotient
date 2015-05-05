@@ -1,11 +1,11 @@
-{!! nl2br(e($input['message'])) !!}
+{!! nl2br(e($webMessage->message)) !!}
 <br/>
 <br/>
 ------
 <br/>
-PS: You can reply to this email directly to respond to the sender. :)
+PS: You can reply to this email directly to respond to the sender.
 <br/>
 <br/>
-Name: {{ $input['name'] }} <br/>
-Email: {{ $input['email'] }} <br/>
-Phone: {{ $input['phone'] }}
+Name: {{ $webMessage->name }} <br/>
+Email: {{ $webMessage->email }} <br/>
+Phone: {{ $webMessage->phone }}
