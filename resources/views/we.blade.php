@@ -81,7 +81,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="/images/portfolio/engrave.in/300.png" alt="Engrave">
+						<img src="/images/portfolio/engrave/300.png" alt="Engrave">
 					</div>
 					<p class="testimonial__author">Nimish Adani</p>
 					<p class="testimonial__info">Founder, Engrave</p>

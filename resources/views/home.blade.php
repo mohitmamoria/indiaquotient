@@ -67,114 +67,114 @@ India Quotient : Home
 			<div class="swiper-wrapper" style="width: 2880px; height: 255px; transform: translate3d(-960px, 0px, 0px); -webkit-transform: translate3d(-960px, 0px, 0px); transition-duration: 0s; -webkit-transition-duration: 0s;">
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible swiper-slide-active" data-src="http://placehold.it/300x200" data-head="iimjobs" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible swiper-slide-active" data-src="/images/portfolio/iimjobs/300.png" data-head="iimjobs" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/iimjobs/526.png" alt="iimjobs">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="RedQuanta" style="width: 240px; height: 255px;">
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/redquanta/300.png" data-head="RedQuanta" style="width: 240px; height: 255px;">
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/redquanta/526.png" alt="RedQuanta">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="Belita" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/belita/300.png" data-head="Belita" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/belita/526.png" alt="Belita">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="Shephertz" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/shephertz/300.png" data-head="Shephertz" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/shephertz/526.png" alt="Shephertz">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="Engrave" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/engrave/300.png" data-head="Engrave" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/engrave/526.png" alt="Engrave">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="mapmytalent" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/mapmytalent/300.png" data-head="mapmytalent" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/mapmytalent/526.png" alt="mapmytalent">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="dogspot.in" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/dogspot/300.png" data-head="dogspot" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/dogspot/526.png" alt="dogspot">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="grabhouse" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/grabhouse/300.png" data-head="grabhouse" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/grabhouse/526.png" alt="grabhouse">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="PrettySecrets" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/prettysecrets/300.png" data-head="PrettySecrets" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/prettysecrets/526.png" alt="PrettySecrets">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="91mobiles" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/91mobiles/300.png" data-head="91mobiles" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/91mobiles/526.png" alt="91mobiles">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="FabBag" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/fabbag/300.png" data-head="FabBag" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/fabbag/526.png" alt="FabBag">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="frsh" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/frsh/300.png" data-head="frsh" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/frsh/526.png" alt="frsh">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="ROPOSO" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/roposo/300.png" data-head="Roposo" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/roposo/526.png" alt="Roposo">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="PurpleSquirrel" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/purplesquirrel/300.png" data-head="PurpleSquirrel" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/purplesquirrel/526.png" alt="PurpleSquirrel">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="nearify" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/nearify/300.png" data-head="nearify" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/nearify/526.png" alt="nearify">
 					</div>
 				</a>
 
 				<!--Slide-->
-				<a href="#" class="swiper-slide swiper-slide-visible" data-src="http://placehold.it/300x200" data-head="teewe" style="width: 240px; height: 255px;"> 
+				<a href="#" class="swiper-slide swiper-slide-visible" data-src="/images/portfolio/teewe/300.png" data-head="teewe" style="width: 240px; height: 255px;"> 
 					<div class="image-container image-container--border">
-						<img src="http://placehold.it/526x526" alt="">
+						<img src="/images/portfolio/teewe/526.png" alt="teewe">
 					</div>
 				</a>
 			</div><!--end swiper wrapper-->
@@ -184,14 +184,14 @@ India Quotient : Home
 	<div class="leftside-arrow">
 		<i class="fa fa-angle-left"></i>
 		<div class="slide-preview">
-			<img class="img-arrow img-prev" src="http://placehold.it/300x200" alt="">
-			<span class="arrow-heading">Shephertz</span>
+			<img class="img-arrow img-prev" src="/images/portfolio/teewe/300.png" alt="Teewe">
+			<span class="arrow-heading">Teewe</span>
 		</div>
 	</div>
 	<div class="rightside-arrow">
 		<i class="fa fa-angle-right"></i>
 		<div class="slide-preview">
-			<img class="img-arrow img-next" src="http://placehold.it/300x200" alt="">
+			<img class="img-arrow img-next" src="/images/portfolio/iimjobs/300.png" alt="iimjobs">
 			<span class="arrow-heading">iimjobs</span>
 		</div>
 	</div>
