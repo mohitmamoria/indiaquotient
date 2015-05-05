@@ -35,7 +35,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="iimjobs">
+						<img src="/images/portfolio/iimjobs/300.png" alt="iimjobs">
 					</div>
 					<p class="testimonial__author">Tarun Matta</p>
 					<p class="testimonial__info">Founder, iimjobs.com</p>
@@ -46,7 +46,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="RedQuanta">
+						<img src="/images/portfolio/redquanta/300.png" alt="RedQuanta">
 					</div>
 					<p class="testimonial__author">Pankaj Guglani</p>
 					<p class="testimonial__info">Founder, RedQuanta</p>
@@ -57,7 +57,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="Belita">
+						<img src="/images/portfolio/belita/300.png" alt="Belita">
 					</div>
 					<p class="testimonial__author">Garima Jain</p>
 					<p class="testimonial__info">Founder, Belita</p>
@@ -68,7 +68,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="Shephertz">
+						<img src="/images/portfolio/shephertz/300.png" alt="Shephertz">
 					</div>
 					<p class="testimonial__author">Siddharth Chandurkar</p>
 					<p class="testimonial__info">Founder, Shephertz</p>
@@ -81,7 +81,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="Engrave">
+						<img src="/images/portfolio/engrave.in/300.png" alt="Engrave">
 					</div>
 					<p class="testimonial__author">Nimish Adani</p>
 					<p class="testimonial__info">Founder, Engrave</p>
@@ -92,7 +92,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="mapmytalent">
+						<img src="/images/portfolio/mapmytalent/300.png" alt="mapmytalent">
 					</div>
 					<p class="testimonial__author">Rohit, Iti, Anubhuti</p>
 					<p class="testimonial__info">Founders, mapmytalent.in</p>
@@ -103,7 +103,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="DogSpot">
+						<img src="/images/portfolio/dogspot/300.png" alt="DogSpot">
 					</div>
 					<p class="testimonial__author">Rana Atheya</p>
 					<p class="testimonial__info">Founder, DogSpot</p>
@@ -114,7 +114,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="grabhouse">
+						<img src="/images/portfolio/grabhouse/300.png" alt="grabhouse">
 					</div>
 					<p class="testimonial__author">Pankhuri, Prateek</p>
 					<p class="testimonial__info">Founders, Grabhouse</p>
@@ -127,7 +127,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="PrettySecrets">
+						<img src="/images/portfolio/prettysecrets/300.png" alt="PrettySecrets">
 					</div>
 					<p class="testimonial__author">Karan Behal</p>
 					<p class="testimonial__info">Founder, Pretty Secrets</p>
@@ -138,7 +138,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="91mobiles">
+						<img src="/images/portfolio/91mobiles/300.png" alt="91mobiles">
 					</div>
 					<p class="testimonial__author">Bharani, Nitin</p>
 					<p class="testimonial__info">Founders, 91mobiles</p>
@@ -149,7 +149,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="FabBag">
+						<img src="/images/portfolio/fabbag/300.png" alt="FabBag">
 					</div>
 					<p class="testimonial__author">Vinita, Kaushik</p>
 					<p class="testimonial__info">Founders, FabBag</p>
@@ -160,7 +160,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="frsh">
+						<img src="/images/portfolio/frsh/300.png" alt="frsh">
 					</div>
 					<p class="testimonial__author">Badal, Sumit</p>
 					<p class="testimonial__info">Founders, frsh</p>
@@ -173,7 +173,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="Roposo">
+						<img src="/images/portfolio/roposo/300.png" alt="Roposo">
 					</div>
 					<p class="testimonial__author">Avinash, Mayank</p>
 					<p class="testimonial__info">Founders, Roposo</p>
@@ -184,7 +184,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="PurpleSquirrel">
+						<img src="/images/portfolio/purplesquirrel/300.png" alt="PurpleSquirrel">
 					</div>
 					<p class="testimonial__author">Aditya, Sahiba</p>
 					<p class="testimonial__info">Founders, PurpleSquirrel</p>
@@ -195,7 +195,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="Nearify">
+						<img src="/images/portfolio/nearify/300.png" alt="Nearify">
 					</div>
 					<p class="testimonial__author">Vivek, Mayank, Sourav</p>
 					<p class="testimonial__info">Founders, Nearify</p>
@@ -206,7 +206,7 @@ India Quotient : Who Are We?
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
-						<img src="http://placehold.it/300x200" alt="frsh">
+						<img src="/images/portfolio/teewe/300.png" alt="Teewe">
 					</div>
 					<p class="testimonial__author">Sai Srinivas, Shubham</p>
 					<p class="testimonial__info">Founders, Teewe</p>
