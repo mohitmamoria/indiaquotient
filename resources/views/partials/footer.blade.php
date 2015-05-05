@@ -7,7 +7,7 @@
 			<!-- Wanna pitch? -->
 			<div class="col-sm-4 pitch-info">
 				<h3 class="heading-info">Wanna Pitch?</h3>
-				<p>If you haven't found us through LinkedIn, Twitter, seminars or common friends, it's our fault. We ought to be out in the field more. In the meanwhile, <a href="/contact">fill out this form</a> in plain-text version of your pitch.</p>
+				<p>If you haven't found us through LinkedIn, Twitter, seminars or common friends, it's our fault. We ought to be out in the field more. In the meanwhile, <a href="/contact" class="text-warning">fill out this form</a> in plain-text version of your pitch.</p>
 			</div>
 			<!-- end pitch plans -->
 
