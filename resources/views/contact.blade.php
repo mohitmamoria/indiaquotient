@@ -44,11 +44,11 @@ India Quotient : Let's Talk
 				<h3 class="heading-helper heading-helper--large heading-helper--left">Drop us a line</h3>
 
 				<input type="hidden" name="_token" value="{{ csrf_token() }}">
-				<input class="contact__field" name="name" type="text" placeholder="full name" value="{{ Input::old('name') }}" >
-				<input class="contact__field" name="email" type="email" placeholder="email" value="{{ Input::old('email') }}" >
-				<input class="contact__field" name="phone" type="tel" placeholder="phone" value="{{ Input::old('phone') }}" >
-				<input class="contact__field" name="subject" type="text" placeholder="subject" value="{{ Input::old('subject') }}" >
-				<textarea class="contact__field contact__area" name="message" placeholder="message">{{ Input::old('message') }}</textarea>
+				<input class="contact__field" name="name" type="text" placeholder="full name" value="{{ Input::old('name') }}" required>
+				<input class="contact__field" name="email" type="email" placeholder="email" value="{{ Input::old('email') }}" required>
+				<input class="contact__field" name="phone" type="tel" placeholder="phone" value="{{ Input::old('phone') }}" required>
+				<input class="contact__field" name="subject" type="text" placeholder="subject" value="{{ Input::old('subject') }}" required>
+				<textarea class="contact__field contact__area" name="message" placeholder="message" required>{{ Input::old('message') }}</textarea>
 				<button class="btn btn--decorated btn-info btn-submit" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 			</form>
 		</div>
