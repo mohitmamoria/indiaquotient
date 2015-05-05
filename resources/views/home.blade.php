@@ -203,23 +203,68 @@ India Quotient : Home
 
 	<div class="slider-information">
 		<div class="slider-information__item slider-information__item--first iimjobs">
-			<p class="slider-information__text">Really very nice design and supportive online quick response. Awesome work!!! </p>
-			<p class="slider-information__author">Catherine Welch</p>
+			<p class="slider-information__text">Product manager who is disrupting job portals.</p>
+			<p class="slider-information__author">Tarun Matta</p>
 		</div>
-
 		<div class="slider-information__item redquanta">
-			<p class="slider-information__text"> Very well documented. Great Work! </p>
-			<p class="slider-information__author">Neal Caffrey</p>
+			<p class="slider-information__text">Hardcore techie who loves complex operations. And mystery shopping!</p>
+			<p class="slider-information__author">Pankaj Guglani</p>
 		</div>
-
-		<div class="slider-information__item appcorner">
-			<p class="slider-information__text">Unique design, great functionality, modern style. Nice!  </p>
-			<p class="slider-information__author">Sara Ellis</p>
+		<div class="slider-information__item belita">
+			<p class="slider-information__text">Inspires everybody to work hard, loves processes.</p>
+			<p class="slider-information__author">Garima Jain</p>
 		</div>
-
-		<div class="slider-information__item бандлер">
-			<p class="slider-information__text"> Awesome template! Thank You for great job!!! </p>
-			<p class="slider-information__author">Elizabeth Burke</p>
+		<div class="slider-information__item shephertz">
+			<p class="slider-information__text">Big IT guy is democratizing technology for game developers.</p>
+			<p class="slider-information__author">Siddharth Chandurkar</p>
+		</div>
+		<div class="slider-information__item engrave">
+			<p class="slider-information__text">One man dream team. Designer, Techie, Marketeer.</p>
+			<p class="slider-information__author">Nimish Adani</p>
+		</div>
+		<div class="slider-information__item mapmytalent">
+			<p class="slider-information__text">Passionate about helping students choose right careers.</p>
+			<p class="slider-information__author">Rohit, Iti, Anubhuti</p>
+		</div>
+		<div class="slider-information__item dogspot">
+			<p class="slider-information__text">Loves dogs; makes business fun while Shailesh and Ankit work.</p>
+			<p class="slider-information__author">Rana Atheya</p>
+		</div>
+		<div class="slider-information__item grabhouse">
+			<p class="slider-information__text">Counselling roommates in the day and coding by the night.</p>
+			<p class="slider-information__author">Pankhuri, Prateek</p>
+		</div>
+		<div class="slider-information__item prettysecrets">
+			<p class="slider-information__text">He's building #1 online lingerie brand (not the shy guy!).</p>
+			<p class="slider-information__author">Karan Behal</p>
+		</div>
+		<div class="slider-information__item 91mobiles">
+			<p class="slider-information__text">Have a question on SEO, affiliate programs, comparison engines?</p>
+			<p class="slider-information__author">Bharani, Nitin</p>
+		</div>
+		<div class="slider-information__item fabbag">
+			<p class="slider-information__text">Facebook celebrities who love stock-outs, that too of paid samples.</p>
+			<p class="slider-information__author">Vinita, Kaushik</p>
+		</div>
+		<div class="slider-information__item frsh">
+			<p class="slider-information__text">They will give you health food, and you will still eat out their hands.</p>
+			<p class="slider-information__author">Badal, Sumit</p>
+		</div>
+		<div class="slider-information__item roposo">
+			<p class="slider-information__text">Beautiful code for those who want fashion 'my way'.</p>
+			<p class="slider-information__author">Avinash, Mayank</p>
+		</div>
+		<div class="slider-information__item purplesquirrel">
+			<p class="slider-information__text">Speed dating and courtship for students and companies.</p>
+			<p class="slider-information__author">Aditya, Sahiba</p>
+		</div>
+		<div class="slider-information__item nearify">
+			<p class="slider-information__author">Vivek, Mayank, Sourav</p>
+			<p class="slider-information__text">Never miss anything happening near you.</p>
+		</div>
+		<div class="slider-information__item teewe">
+			<p class="slider-information__text">Mango men obsessed about making great electronic products.</p>
+			<p class="slider-information__author">Sai Srinivas, Shubham</p>
 		</div>
 	</div>
 
