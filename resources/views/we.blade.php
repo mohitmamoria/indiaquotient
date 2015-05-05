@@ -232,7 +232,7 @@ India Quotient : Who Are We?
 						<div class="row">
 							<div class="one-column col-xs-6 col-md-7 col-lg-6">
 								<div class="image-container image-container--max image--border-hover">
-									<img src="http://placehold.it/526x526" alt="Anand Lunia">
+									<img src="/images/team/anand.png" alt="Anand Lunia">
 								</div>
 							</div><!-- end col -->
 							<div class="one-column col-xs-6 col-md-5 col-lg-6">
@@ -251,13 +251,13 @@ India Quotient : Who Are We?
 						<div class="row">
 							<div class="one-column col-xs-6 col-md-7 col-lg-6">
 								<div class="image-container image-container--max image--border-hover">
-									<img src="http://placehold.it/526x526" alt="RedQuanta">
+									<img src="/images/team/madhukar.jpg" alt="Madhukar Sinha">
 								</div>
 							</div><!-- end col -->
 							<div class="one-column col-xs-6 col-md-5 col-lg-6">
 								<h3 class="staff__name">Madhukar Sinha</h3>
 								<p class="staff__position">Partner</p>
-								<p class="post__text">Last stint at Aavishkaar as Sr. Investment Manager. Earlier at PRADAN (not for profit), Weather Risk Management.</p>
+								<p class="post__text">Last stint at Aavishkaar as Sr. Investment Manager. Earlier at PRADAN.</p>
 							</div><!-- end col -->
 						</div><!-- end row -->
 					</a>
@@ -275,7 +275,7 @@ India Quotient : Who Are We?
 							</div><!-- end col -->
 							<div class="one-column col-xs-6 col-md-7 col-lg-6">
 								<div class="image-container image-container--max pull-right image--border-hover">
-									<img src="http://placehold.it/526x526" alt="Belita">
+									<img src="/images/team/gaurav.jpg" alt="Gaurav Mittal">
 								</div>
 							</div><!-- end col -->
 						</div><!-- end row -->
@@ -294,7 +294,7 @@ India Quotient : Who Are We?
 							</div><!-- end col -->
 							<div class="one-column col-xs-6 col-md-7 col-lg-6">
 								<div class="image-container image-container--max pull-right image--border-hover">
-									<img src="http://placehold.it/526x526" alt="">
+									<img src="/images/team/elizabeth.jpg" alt="Elizabeth Chapman">
 								</div>
 							</div><!-- end col -->
 						</div><!-- end row -->
