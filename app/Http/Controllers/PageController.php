@@ -19,7 +19,6 @@ class PageController extends Controller {
 	 */
 	public function index()
 	{
-		return view('emails.ack', ['webMessage' => \App\Message::find(5)]);
 		return view('home');
 	}
 
