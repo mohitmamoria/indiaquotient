@@ -8,7 +8,7 @@ India Quotient : Who Are We?
 
 @include('partials.header-sub')
 
-<section class="container  bottom-space--m">
+<section class="container bottom-space--m">
 	<div class="row">
 		<div class="col-sm-6">
 			<h2 class="heading-cascade heading-cascade--danger"><span class="heading-cascade__step">who are </span>we?</h2>
@@ -76,8 +76,8 @@ India Quotient : Who Are We?
 				</div>
 			</div><!-- end col -->
 		</div><!-- end row -->
-		<hr />
-		<div class="row">
+		
+		<div class="row devider--top">
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
@@ -122,8 +122,8 @@ India Quotient : Who Are We?
 				</div>
 			</div><!-- end col -->
 		</div><!-- end row -->
-		<hr />
-		<div class="row">
+
+		<div class="row devider--top">
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
@@ -168,8 +168,8 @@ India Quotient : Who Are We?
 				</div>
 			</div><!-- end col -->
 		</div><!-- end row -->
-		<hr />
-		<div class="row">
+
+		<div class="row devider--top">
 			<div class="col-sm-6 col-md-3">
 				<div class="testimonial testimonial--centered">
 					<div class="testimonial__images">
