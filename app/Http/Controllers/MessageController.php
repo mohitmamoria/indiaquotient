@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\CreateNewMessageRequest;
 use Illuminate\Validation\Factory as Validator;
 use Illuminate\Mail\Mailer as Mail;
 use Illuminate\Config\Repository as Config;
@@ -9,40 +9,15 @@ use Illuminate\Support\MessageBag;
 class MessageController extends Controller {
 
 	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
-	public function __construct()
-	{
-		$this->middleware('guest');
-	}
-
-	/**
 	 * Show the application welcome screen to the user.
 	 *
 	 * @return Response
 	 */
-	public function store(Request $request, Validator $validator, Mail $mail, Config $config)
+	public function store(CreateNewMessageRequest $request, Mail $mail, Config $config)
 	{
 		try
 		{
-			$input = $request->all();
-
-			$v = $validator->make($input, [
-				'name' => 'required|max:150',
-				'email' => 'required|email|max:150',
-				'phone' => 'required|max:20',
-				'subject' => 'required|max:140',
-				'message' => 'required'
-			]);
-
-			if( ! $v->passes())
-			{
-				return back()->withErrors($v)->withInput();
-			}
-
-			$webMessage = \App\Message::create($input);
+			$webMessage = \App\Message::create($request->all());
 
 			$this->notifyAdmin($webMessage, $mail, $config);
 
