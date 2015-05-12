@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests\CreateNewMessageRequest;
+use App\Events\MessageWasCreated;
 use Illuminate\Validation\Factory as Validator;
 use Illuminate\Mail\Mailer as Mail;
 use Illuminate\Config\Repository as Config;
@@ -19,7 +20,7 @@ class MessageController extends Controller {
 		{
 			$webMessage = \App\Message::create($request->all());
 
-			$this->notifyAdmin($webMessage, $mail, $config);
+			event(new MessageWasCreated($webMessage));
 
 			return $this->respondSuccess('You\'ve successfully sent us the message. We\'ll get back to you soon. :)');
 		}
