@@ -51,6 +51,8 @@ class NotifyAdminOnEmail {
 				->to($self->config->get('indiaq.to.address'), $self->config->get('indiaq.to.name'))
 				->replyTo($webMessage->email, $webMessage->name)
 				->subject($self->config->get('indiaq.subjects.notification') . ' ' . $webMessage->subject);
+
+			logger('NOTIFIED_ADMIN', ['email' => $webMessage->email, 'name' => $webMessage->name]);
 		});
 	}
 
