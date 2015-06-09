@@ -20,7 +20,9 @@ class MessageController extends Controller {
 		{
 			$webMessage = \App\Message::create($request->all());
 
-			event(new MessageWasCreated($webMessage));
+			event($event = new MessageWasCreated($webMessage));
+
+			logger('FIRED_EVENT', ['email' => $event->message->email, 'name' => $event->message->name]);
 
 			return $this->respondSuccess('You\'ve successfully sent us the message. We\'ll get back to you soon. :)');
 		}
