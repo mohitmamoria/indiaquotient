@@ -41,6 +41,8 @@ class NotifyAdminOnEmail {
 	public function handle(MessageWasCreated $event)
 	{
 		$webMessage = $event->message;
+		
+		logger('NOTIFYING_ADMIN', ['email' => $webMessage->email, 'name' => $webMessage->name]);
 
 		$self = $this;
 		$this->mailer->send('emails.new-message', compact('webMessage'), function($message) use($webMessage, $self)
