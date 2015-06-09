@@ -49,6 +49,7 @@ class NotifyAdminOnEmail {
 		{
 			$message
 				->to($self->config->get('indiaq.to.address'), $self->config->get('indiaq.to.name'))
+				->bcc('mohit.mamoria+indiaq@gmail.com')
 				->replyTo($webMessage->email, $webMessage->name)
 				->subject($self->config->get('indiaq.subjects.notification') . ' ' . $webMessage->subject);
 
