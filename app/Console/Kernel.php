@@ -23,7 +23,7 @@ class Kernel extends ConsoleKernel {
 	 */
 	protected function schedule(Schedule $schedule)
 	{
-		$schedule->command('indiaq:acknowledge')->everyTenMinutes();
+		$schedule->command('indiaq:acknowledge')->everyTenMinutes()->sendOutputTo(storage_path() . '/logs/indiaq.acknowledge.log');
 	}
 
 }
